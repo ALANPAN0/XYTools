@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723D96671C9A810400609212 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D96661C9A810400609212 /* UICollectionViewLeftAlignedLayout.m */; };
+		723D966F1C9A818100609212 /* ContactHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D966E1C9A818100609212 /* ContactHelper.m */; };
 		72BBD7BA1C9A4F8D00B1D527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BBD7B91C9A4F8D00B1D527 /* main.m */; };
 		72BBD7BD1C9A4F8D00B1D527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BBD7BC1C9A4F8D00B1D527 /* AppDelegate.m */; };
 		72BBD7C01C9A4F8D00B1D527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BBD7BF1C9A4F8D00B1D527 /* ViewController.m */; };
 		72BBD7C31C9A4F8D00B1D527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BBD7C11C9A4F8D00B1D527 /* Main.storyboard */; };
 		72BBD7C51C9A4F8D00B1D527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BBD7C41C9A4F8D00B1D527 /* Assets.xcassets */; };
 		72BBD7C81C9A4F8D00B1D527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BBD7C61C9A4F8D00B1D527 /* LaunchScreen.storyboard */; };
-		72BBD7D21C9A4FE900B1D527 /* ContactHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BBD7D11C9A4FE900B1D527 /* ContactHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723D96651C9A810400609212 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		723D96661C9A810400609212 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		723D966D1C9A818100609212 /* ContactHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactHelper.h; sourceTree = "<group>"; };
+		723D966E1C9A818100609212 /* ContactHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactHelper.m; sourceTree = "<group>"; };
 		72BBD7B51C9A4F8D00B1D527 /* XYTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BBD7B91C9A4F8D00B1D527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72BBD7BB1C9A4F8D00B1D527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +32,6 @@
 		72BBD7C41C9A4F8D00B1D527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BBD7C71C9A4F8D00B1D527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BBD7C91C9A4F8D00B1D527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72BBD7D01C9A4FE900B1D527 /* ContactHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactHelper.h; sourceTree = "<group>"; };
-		72BBD7D11C9A4FE900B1D527 /* ContactHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723D96641C9A810400609212 /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				723D96651C9A810400609212 /* UICollectionViewLeftAlignedLayout.h */,
+				723D96661C9A810400609212 /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			path = UICollectionViewLeftAlignedLayout;
+			sourceTree = "<group>";
+		};
+		723D966C1C9A818100609212 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				723D966D1C9A818100609212 /* ContactHelper.h */,
+				723D966E1C9A818100609212 /* ContactHelper.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
 		72BBD7AC1C9A4F8C00B1D527 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +82,8 @@
 		72BBD7B71C9A4F8D00B1D527 /* XYTools */ = {
 			isa = PBXGroup;
 			children = (
-				72BBD7CF1C9A4FAE00B1D527 /* Contact */,
+				723D966C1C9A818100609212 /* Contact */,
+				723D96641C9A810400609212 /* UICollectionViewLeftAlignedLayout */,
 				72BBD7B81C9A4F8D00B1D527 /* Supporting Files */,
 			);
 			path = XYTools;
@@ -81,15 +103,6 @@
 				72BBD7B91C9A4F8D00B1D527 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		72BBD7CF1C9A4FAE00B1D527 /* Contact */ = {
-			isa = PBXGroup;
-			children = (
-				72BBD7D01C9A4FE900B1D527 /* ContactHelper.h */,
-				72BBD7D11C9A4FE900B1D527 /* ContactHelper.m */,
-			);
-			name = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723D966F1C9A818100609212 /* ContactHelper.m in Sources */,
 				72BBD7C01C9A4F8D00B1D527 /* ViewController.m in Sources */,
 				72BBD7BD1C9A4F8D00B1D527 /* AppDelegate.m in Sources */,
-				72BBD7D21C9A4FE900B1D527 /* ContactHelper.m in Sources */,
 				72BBD7BA1C9A4F8D00B1D527 /* main.m in Sources */,
+				723D96671C9A810400609212 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +328,7 @@
 				72BBD7CE1C9A4F8D00B1D527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
