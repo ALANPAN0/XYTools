@@ -3,4 +3,4 @@
 
 
 
-ContactHelper：实现往系统通讯录的model，返回所选择的联系人信息
+**ContactHelper**：实现往系统通讯录的model，返回所选择的联系人信息
